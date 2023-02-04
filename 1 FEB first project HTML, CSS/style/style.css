@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #edf1fd;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+   height: 45px;
+   width: 45px;
+   cursor: pointer;
+}
+nav .logo img {
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+.search {
+    display: flex;
+    gap: 30px;
+}
+
+input {
+    padding: 4px 10px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+   
+}
+
+a{
+    text-decoration: none;
+    color: hsla(0, 0%, 0%, 0.617);
+}
+
+button {
+    background-color: rgb(18, 155, 155);
+    color: white;
+    padding: 4px 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(18, 155, 155);
+    border: 1px solid black;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width: 60%;
+    padding: 0 8%;
+}
+
+.left h1 {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.left h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+}
+.left p {
+    font-weight: 520;
+    font-size: 18px;
+}
+
+.left p span {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(18, 155, 155);
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.btn {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+}
+
+.right img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+footer {
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}

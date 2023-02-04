@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Red Rose", cursive;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 35px 35px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li{
+    list-style: none;
+    text-align: center; 
+    font-family: "Red Rose";
+}
+
+header nav ul li:hover{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffc233;
+}
+
+header nav .logo{
+    height: 39px;
+    width: 110px;
+    /* border: 1px solid yellow; */
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#parent {
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid red; */
+            flex-direction: column;
+    }
+.child {
+        text-align: center;
+
+}
+.child h1 {
+    color: rgb(255, 194, 51);
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 110%;
+    margin: 45px 0px;
+    font-family: "Dela Gothic One", cursive;
+}
+
+button {
+    color: white;
+    background-color: rgb(255, 80, 95);
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-family: "Red Rose";
+}
+button:hover {
+    color: rgb(255, 80, 95);
+    background-color: white;
+}
+
+button:active{
+    background-color: #d9cece;
+    border: 2px solid #00b3ff;
+    color: rgb(248, 6, 26);
+}
+
+.h_btn{
+    padding: 8px 28px;
+    font-weight: 750;
+    font-size: 15px;
+}
+
+.main_btn{
+    font-size: 22px;
+    padding: 12px 30px;
+    margin: 5px 0px;
+    font-weight: 900;
+}
+
+.grandchild {
+    height: 120px;
+    width: 120px;
+    /* border: 1px solid red; */
+    position: fixed;
+    right: 35px;
+    bottom: 25px;
+}
+
+.grandchild img {
+    width: 100%;
+    height: 100%;
+}
