@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    margin: 44px 55px 30px 55px;
+    padding: 5px 0px;
+    align-items: center;
+}
+
+.header-left-section {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 35px;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    font-size: 15px;
+    font-weight: 550;
+    text-decoration: underline;
+}
+nav ul li a:active {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #009cda;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    height: 40px;
+    width: 110px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    background-color: #5955b3;
+    color: #ffffff;
+    padding: 9.5px 21px;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 0.8rem;
+}
+
+button:hover{
+    color: #3c2f60;
+    background-color: #ffffff;
+    border: 1px solid #009cda;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:active {
+    background-color: #ece3e3;
+    border: 2px solid #009cda;
+    font-size: 11.5px;
+    font-weight: 650;
+}
+.header-right-section {
+    display: flex;
+    justify-content: end;  
+    width: 50%;
+}
+
+.main_section {
+    display: flex;
+    margin: 0px 55px 30px 55px;
+    /* align-items: center; */
+}
+.left_main {
+    width: 51%;
+}
+.left_main h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #3c2f60;
+    margin-top: 90px;
+    line-height: 120%;
+}
+
+.left_main h1 span {
+    color: #5955b3;
+}
+
+.left_main p {
+    margin: 25px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.left_main button {
+    margin-top: 20px;
+}
+
+.right_main img {
+        width: 100%;
+        height: 100%;
+}

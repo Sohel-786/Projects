@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+   background-image: url("/assets/bg.png");
+   background-size: cover;
+   /* background-repeat: no-repeat; */
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    padding: 30px 50px 16px 50px;
+}
+
+.header_left {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.navbar nav ul{
+    display: flex;
+    gap: 38px;
+}
+
+.navbar nav ul li{
+    list-style: none;
+    font-size: 11.5px;
+    font-weight: 700;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    height: 23px;
+    width: 67px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+hr {
+    border: 0.7px solid white;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.header_right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+button{
+    background: #ba0cc5;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.header_right button {
+    font-weight: 600;
+    font-size: 11.4px;
+    padding: 5.8px 17px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    color: #ffffff;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 68px;
+}
+
+main h2 {
+    font-weight: 500;
+    font-size: 20.5px;
+}
+
+main button {
+    font-weight: 630;
+    font-size: 20.7px;
+    padding: 7px 12px;
+    margin-top: 42px;
+}
+
+button:hover {
+    color: #ba0cc5;
+    background-color: #ffffff;
+    border: 2px solid #006aff;
+}
+
+button:active{
+    background-color: #dbd2d2;
+    font-weight: 800;
+    border: 3px solid #00ffc8;
+    color: #ee00ff;
+}
+
+.navbar nav ul li:hover{
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.navbar nav ul li a:active{
+    font-size: 12px;
+    font-weight: 750;
+    text-decoration: none;
+    color: #00ffc8;
+}
