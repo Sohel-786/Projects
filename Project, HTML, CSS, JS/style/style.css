@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #ece5e5;
+    margin-top: 3%;
+    padding: 0px 15px;
+}
+
+body div {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    width: 30%;
+}
+input, select {
+    width: 100%;
+    padding: 10px 3px;
+    border-color: #49a0a0;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+fieldset {
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px dashed #000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4c00ff;
+    background-color: rgb(118, 123, 161);
+
+}
+
+legend {
+    background-color: #ece5e5;
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+table td,table th {
+    border:1px solid white;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+th{
+    background-color: #4707dc;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) { 
+    background-color: #ababab;
+    color:#0d7a57 ;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+tr:nth-child(Odd) { 
+    background-color: white;
+    color:#1c91a3 ;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+tr td:last-child{
+    background-color: white;
+    color: red;
+    border-color: white;
+}
+
+tr td:last-child:hover{
+    background-color: red;
+    color: white;
+    border-color: black;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+tr td:last-child:active{
+    background-color: rgb(162, 0, 0);
+    color: white;
+    border: 2px solid #15ff00;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color:#4c00ff;
+    color: white;
+    border-color: white;
+}
+
+button:active {
+    background-color: #e2dfdf;
+    color:#002aff;
+    border-color: #4c00ff;
+    font-weight: 700;
+}
+
+#top-btn{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#fixed-btn{
+    background-color: #e29b18; 
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+@media (width <= 768px) {
+        body {
+            background-color: #b3abab;
+        }
+
+        body div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        form {
+            width: 60%;
+        }
+        
+        fieldset {
+             background-color:#dc90dc;
+             border: 1px solid green;
+        }
+        fieldset button {
+            background-color: #289bc8;
+            border-color: white;
+            color: white ;
+        }
+        legend {
+            color: #0e4350;
+            background-color: #b3abab;
+        }
+        table{
+            width: 80%;
+        }
+        table th {
+            background-color: #767ba1;
+        }
+        table td,table th {
+            padding: 8px 8px;
+            text-align: center;
+        }
+        tr:nth-child(even) { 
+            font-size: 14px;
+        }
+        
+        tr:nth-child(Odd) { 
+            font-size: 14px;
+        }
+        
+}
+
+@media (width <= 425px) {
+    body {
+        background-color: #ffe5e5;
+    }
+
+    body div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    form {
+        width: 70%;
+    }
+    
+    input, select {
+        width: 100%;
+        padding: 8px 10px;
+        border-color: #97a758;
+        border-radius: 10px;
+        margin: 10px 0;
+        font-size: 12px;
+        font-weight: 550;
+    }
+
+    fieldset {
+         background-color:#dfee7c;
+         border: 1px solid #41f741;
+         font-size: 15px;
+    }
+    fieldset button {
+        background-color: #88e848;
+        border-color: white;
+        color: #1b1b1b ;
+    }
+    legend {
+        color: #16025a;
+        background-color: #ffe5e5;
+        font-size: 18px;
+    }
+    table{
+        width: 90%;
+    }
+    table th {
+        background-color: #616ff1;
+    }
+    table td,table th {
+        padding: 6px 6px;
+        text-align: center;
+    }
+    tr:nth-child(even) { 
+        font-size: 11px;
+    }
+    
+    tr:nth-child(Odd) { 
+        font-size: 11px;
+    }
+    
+}
